@@ -1,0 +1,89 @@
+.logo {
+  padding: 20px;
+  background-color: #6495ed;
+  color: black;
+  height: 100px;
+}
+p {
+  text-align: center;
+}
+.menu {
+  background-color:#ADD8E6;
+  width: 100%;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+ul {
+  float: right;
+  
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-item {
+color:black;
+}
+
+.produk {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #6495ed;
+  justify-content: center
+}
+
+.produk img {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.item-details {
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #6495ed;
+  color: white;
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+}
