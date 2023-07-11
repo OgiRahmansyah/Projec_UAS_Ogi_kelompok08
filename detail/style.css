@@ -1,0 +1,154 @@
+.logo {
+  padding: 20px;
+  background-color: #6495ed;
+  color: black;
+  height: 100px;
+}
+
+.menu {
+  background-color:#ADD8E6;
+  width: 100%;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+ul {
+  float: right;
+  
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-item{
+color:black;
+}
+
+.col{
+  border: 1px solid #ccc;
+  height: 420px;
+}
+
+.gambar-produk{
+  border: 5 px solid #ccc;
+  width: 450px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.status-stok {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6495ed;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.deskripsi{
+  margin: 10px;
+}
+
+.judul-produk {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.harga-produk {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jumlah-produk {
+  margin-bottom: 20px;
+}
+
+.jumlah-produk label {
+  margin-right: 10px;
+}
+
+.deskripsi-produk {
+  margin-bottom: 10px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.rating {
+  margin-bottom: 20px;
+}
+
+.rating-text {
+  font-weight: bold;
+}
+
+.stars {
+color: gold;
+}
+
+.star {
+font-size: 24px;
+}
+.ulasan{
+margin: 10px;
+}
+
+.ulasan h2 {
+  margin-bottom: 10px;
+}
+
+.ulasan-item {
+  margin-bottom: 10px;
+}
+
+.nama-pengguna {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating-ulasan {
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.isi-ulasan {
+  margin-bottom: 0;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product .price {
+  color: #888;
+}
+
+.conten_produk {
+  display: inline-flex;
+  padding: 10px;
+  margin-left: 50px;
+}
