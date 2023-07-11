@@ -18,22 +18,22 @@
             <div class="menu">
                 <ul>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="../dashboard/index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pesanan</a>
+                        <a class="nav-link" href="../chekout/index.php">Pesanan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Keranjang</a>
+                        <a class="nav-link" href="../keranjang/index.php">Keranjang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Notifikasi</a>
+                        <a class="nav-link" href="../notifikasi/index.php">Notifikasi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Log In</a>
+                        <a class="nav-link" href="../login/index.html">Log In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sing In</a>
+                        <a class="nav-link" href="../login/index.html">Sing In</a>
                     </li>
 	            </ul>
             </div>
@@ -44,9 +44,15 @@
                     <img src="https://coconuts.co/wp-content/uploads/2016/11/ikan_mas.jpg" alt="Gambar Produk" class="gambar-produk">
                     <div class="status-stok">Stok: Tersedia</div>
                     <div>
-                        <button class="button">Beli Sekarang</button>
-                        <button class="button">Chat</button>
-                        <button class="button">+ Keranjang</button>
+                        <a href="../chekout/index.php">
+                            <button class="button">Beli Sekarang</button>
+                        </a>
+                        <a href="../chat/index.php">
+                            <button class="button">Chat</button>
+                        </a>
+                        <a href="../keranjang/index.php">
+                            <button class="button">+ Keranjang</button>
+                        </a>
                     </div>
                 </div>
 
@@ -58,7 +64,11 @@
                         <label for="quantity">Jumlah:</label>
                         <input type="number" id="quantity" name="quantity" min="1" value="1">
                     </div>
-                        <p class="deskripsi-produk">Deskripsi Produk Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa officia repellendus explicabo rem ab a, qui illo deleniti minus aliquid velit inventore, voluptatem adipisci. Sequi, dicta. Doloremque, itaque illo.</p>
+                        <p class="deskripsi-produk">Deskripsi produk Ikan adalah sumber pangan yang bernilai tinggi. Mereka mengandung protein, vitamin
+                        dan mineral penting seperti omega-3 yang baik untuk kesehatan jantung dan otak.
+                        Ikan juga dikenal karena tekstur dagingnya yang lezat dan bisa diolah menjadi berbagai hidangan seperti ikan bakar,
+                        ikan goreng, sushi, dan banyak lagi.
+                        </p>
                     <div class="rating">
                         <p class="rating-text">Rating:</p>
                         <div class="stars">
@@ -95,27 +105,43 @@
                 <div class="conten_produk">
                 <div class="product">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.o2FrCQErx8OUFdW77FPtmAHaEi&pid=Api&P=0&h=180" alt="Produk 1">
-                <div class="name">Produk 1</div>
-                <div class="price">Rp.10.000</div>
-                    <p>Deskripsi produk 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="name">Produk 1</div>
+                    <div class="price">Rp.10.000</div>
+                    <p>Deskripsi produk Ikan adalah sumber pangan yang bernilai tinggi. Mereka mengandung protein, vitamin
+                    dan mineral penting seperti omega-3 yang baik untuk kesehatan jantung dan otak.
+                    Ikan juga dikenal karena tekstur dagingnya yang lezat dan bisa diolah menjadi berbagai hidangan seperti ikan bakar,
+                    ikan goreng, sushi, dan banyak lagi.</p>
+                    <a href="../detail/index.php" class="button">Detail</a>
                 </div>
                     <div class="product">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.o2FrCQErx8OUFdW77FPtmAHaEi&pid=Api&P=0&h=180" alt="Produk 1">
-                <div class="name">Produk 1</div>
-                <div class="price">Rp.10.000</div>
-                    <p>Deskripsi produk 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="name">Produk 1</div>
+                    <div class="price">Rp.10.000</div>
+                    <p>Deskripsi produk Ikan adalah sumber pangan yang bernilai tinggi. Mereka mengandung protein, vitamin
+                    dan mineral penting seperti omega-3 yang baik untuk kesehatan jantung dan otak.
+                    Ikan juga dikenal karena tekstur dagingnya yang lezat dan bisa diolah menjadi berbagai hidangan seperti ikan bakar,
+                    ikan goreng, sushi, dan banyak lagi.</p>
+                    <a href="../detail/index.php" class="button">Detail</a>
                 </div>
                 <div class="product">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.o2FrCQErx8OUFdW77FPtmAHaEi&pid=Api&P=0&h=180" alt="Produk 1">
-                <div class="name">Produk 1</div>
-                <div class="price">Rp.10.000</div>
-                    <p>Deskripsi produk 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="name">Produk 1</div>
+                    <div class="price">Rp.10.000</div>
+                    <p>Deskripsi produk Ikan adalah sumber pangan yang bernilai tinggi. Mereka mengandung protein, vitamin
+                    dan mineral penting seperti omega-3 yang baik untuk kesehatan jantung dan otak.
+                    Ikan juga dikenal karena tekstur dagingnya yang lezat dan bisa diolah menjadi berbagai hidangan seperti ikan bakar,
+                    ikan goreng, sushi, dan banyak lagi.</p>
+                    <a href="../detail/index.php" class="button">Detail</a>
                 </div>
                 <div class="product">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.o2FrCQErx8OUFdW77FPtmAHaEi&pid=Api&P=0&h=180" alt="Produk 1">
-                <div class="name">Produk 1</div>
-                <div class="price">Rp.10.000</div>
-                    <p>Deskripsi produk 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="name">Produk 1</div>
+                    <div class="price">Rp.10.000</div>
+                    <p>Deskripsi produk Ikan adalah sumber pangan yang bernilai tinggi. Mereka mengandung protein, vitamin
+                    dan mineral penting seperti omega-3 yang baik untuk kesehatan jantung dan otak.
+                    Ikan juga dikenal karena tekstur dagingnya yang lezat dan bisa diolah menjadi berbagai hidangan seperti ikan bakar,
+                    ikan goreng, sushi, dan banyak lagi.</p>
+                    <a href="../detail/index.php" class="button">Detail</a>
                 </div>
             </div>
         </div>

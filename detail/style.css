@@ -29,6 +29,7 @@ color:black;
 
 .col{
   border: 1px solid #ccc;
+  height: 420px;
 }
 
 .gambar-produk{
@@ -47,13 +48,12 @@ color:black;
 }
 
 .button {
-  padding: 10px;
-  background-color: #ADD8E6;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  margin: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6495ed;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .deskripsi{
