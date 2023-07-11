@@ -1,3 +1,32 @@
+.logo {
+  padding: 20px;
+  background-color: #6495ed;
+  color: black;
+  height: 100px;
+}
+
+.menu {
+  background-color:#ADD8E6;
+  width: 100%;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+ul {
+  float: right;
+  
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-item{
+color:black;
+}
+
 .chat-container {
   width: 400px;
   border: 1px solid #ccc;
