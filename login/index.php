@@ -32,7 +32,7 @@
 
         .container input[type="submit"] {
             width: 100%;
-            background-color: #4CAF50;
+            background-color: #6495ed;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -42,7 +42,18 @@
         }
 
         .container input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #6495ed;
+        }
+
+        .btn-register {
+            width: 100%;
+            background-color: #6495ed;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
         }
 
         .container .message {
@@ -59,6 +70,9 @@
             <input type="password" id="password" name="password" placeholder="Password">
             <input type="submit" value="Login">
         </form>
+        <a href="../register/index.php">
+            <button class="btn-register">Register</button>
+        </a>
         <div class="message"></div>
     </div>
 

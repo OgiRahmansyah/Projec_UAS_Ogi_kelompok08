@@ -27,10 +27,10 @@
           <a class="nav-link" href="../notifikasi/index.php">Notifikasi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../login/index.html">Log In</a>
+          <a class="nav-link" href="../login/index.php">Log In</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../login/index.html">Sing In</a>
+          <a class="nav-link" href="../register/index.php">Daftar</a>
         </li>
 	    </ul>
     </div>
