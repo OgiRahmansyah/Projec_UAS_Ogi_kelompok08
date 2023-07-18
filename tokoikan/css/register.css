@@ -1,0 +1,37 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1, label {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label, input, select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #6495ed;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,73 @@
+.logo {
+    padding: 20px;
+    background-color:#6495ed;
+    color: black;
+    height: 100px;
+  }
+  
+  .menu {
+    background-color:#ADD8E6;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  ul {
+    float: right;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  .nav-item{
+  color:black;
+  }
+  
+  .halaman-notifikasi {
+      width: 500px;
+      height: 350px;
+      margin-left: 500px;
+  }
+  
+  .notif {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      color: black;
+      background-color: #f5f5f5;
+      border-left: 6px solid;
+      border-radius: 4px;
+    }
+    
+    .berhasil {
+      border-color: #4caf50;
+      background-color: #e8f5e9;
+    }
+    
+    .peringatan {
+      border-color: #ff9800;
+      background-color: #fff3e0;
+    }
+    
+    .notif {
+      margin-right: 10px;
+    }
+    
+    .notif .pesan {
+      margin-left: 10px;
+    }
+    
+    .notif h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+    
+    .notif p {
+      margin: 0;
+      font-size: 14px;
+    }
+    

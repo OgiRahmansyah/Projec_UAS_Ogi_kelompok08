@@ -1,0 +1,113 @@
+.logo {
+    padding: 20px;
+    background-color:#6495ed;
+    color: black;
+    height: 100px;
+}
+
+#logo {
+    float: left;
+}
+#teks{
+    float: left;
+    margin-top: 50px;
+    margin-left: -170px;
+}
+.menu {
+    background-color:#ADD8E6;
+    width: 100%;
+    display: inline-block;
+  }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 45px;
+  border: 1px solid #ADD8E6;
+}
+
+.border-admin{
+  padding: 20px;
+  padding-right: 45px;
+  border: 1px solid #ADD8E6;
+}
+
+.border-produk{
+    padding: 20px;
+  padding-right: 45px;
+  border: 1px solid #ADD8E6;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6495ed;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.edit-btn {
+  background-color: #6495ed;
+}
+
+button.hapus-btn {
+  background-color: #f44336;
+}
+
+ul#daftar-produk {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#daftar-produk li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.produk {
+  display: flex;
+  align-items: center;
+}
+
+.foto-produk {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.foto-produk img {
+  width: 100%;
+  height: auto;
+}
+
+.detail-produk {
+  flex-grow: 1;
+}
+
+ul#daftar-produk li h3 {
+  margin: 0;
+}
+
+ul#daftar-produk li p {
+  margin: 0;
+}
